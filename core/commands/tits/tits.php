@@ -1,136 +1,138 @@
 <?php
-    $photo_id = array();
-    $photo_id[] = "AgADAgADpK0xG3FNzRDKAl9fkc4bRtPagQ0ABGOC3VmZQnEmu9UBAAEC";
-    $photo_id[] = "AgADAgADpa0xG3FNzRAP2eY3DX_s3AjVgQ0ABB-wZp_nwtgnk9cBAAEC";
-    $photo_id[] = "AgADAgADpq0xG3FNzRCgeuD89avNZUrcgQ0ABKYYXz2X6UTAwdsBAAEC";
-    $photo_id[] = "AgADAgADp60xG3FNzRDW0PaZDXTCmSjngQ0ABME3PXl6rGG-EtoBAAEC";
-    $photo_id[] = "AgADAgADqK0xG3FNzRDR04YlcSy5SuvcgQ0ABRz2dclnqEKF2AEAAQI";
-    $photo_id[] = "AgADAgADqa0xG3FNzRAVYJJZDXSJ89DVgQ0ABHGCcDKh-9ko_9YBAAEC";
-    $photo_id[] = "AgADAgADqq0xG3FNzRCiTFVmeLfyDOblgQ0ABHLNB7SsFOEN5t0BAAEC";
-    $photo_id[] = "AgADAgADq60xG3FNzRCN9rMGHZj5PnwTSw0ABJ7TXvPCOusR1BoBAAEC";
-    $photo_id[] = "AgADAgADrK0xG3FNzRCcq5UCizMh03fngQ0ABI1i5UJgJvOdndgBAAEC";
-    $photo_id[] = "AgADAgADra0xG3FNzRBq24mCHWFYCnbcgQ0ABEX2t3XpEMiPO9kBAAEC";
-    $photo_id[] = "AgADAgADrq0xG3FNzRDhhEwIJJQOmubbgQ0ABFT6FbMwKzGXq9YBAAEC";
-    $photo_id[] = "AgADAgADr60xG3FNzRCIlgABZmIaIMf20YENAAS5lZ6K0L5aR4vVAQABAg";
-    $photo_id[] = "AgADAgADsK0xG3FNzRA7cPxj4DSfBiXagQ0ABJO9qh9muNidcNkBAAEC";
-    $photo_id[] = "AgADAgADsa0xG3FNzRCBYOzlxi1_5WU0Sw0ABK8vqfCW1Yr93isBAAEC";
-    $photo_id[] = "AgADAgADsq0xG3FNzRBrHVGLGMogdYvqgQ0ABMOTTumzMFfPsNoBAAEC";
-    $photo_id[] = "AgADAgADs60xG3FNzRDWcnuP9a84VrXhgQ0ABEahF2HriEZTZNsBAAEC";
-    $photo_id[] = "AgADAgADtK0xG3FNzRAAAbKFSBMQEYKEOEsNAAQYEwdM3gd5tSorAQABAg";
-    $photo_id[] = "AgADAgADta0xG3FNzRDjW7_orVRtF-0HSw0ABCDplhMcC0khkRwBAAEC";
-    $photo_id[] = "AgADAgADtq0xG3FNzRA-nHusJ6epan_mgQ0ABFqFVpZy83XdTtkBAAEC";
-    $photo_id[] = "AgADAgADt60xG3FNzRBhnrt5NEk7hQPggQ0ABEWsBdXhd5STb9oBAAEC";
-    $photo_id[] = "AgADAgADuK0xG3FNzRD9c6aAdWhW-E46Sw0ABIPd8MsLhgzcIy0BAAEC";
-    $photo_id[] = "AgADAgADua0xG3FNzRBHmfhrl2uIsvsMSw0ABE5m4f9_5zxLOhoBAAEC";
-    $photo_id[] = "AgADAgADuq0xG3FNzRCPo_7AXxelCsw2Sw0ABC_wCwK_ApN_UykBAAEC";
-    $photo_id[] = "AgADAgADu60xG3FNzRAVpSwQjYDeLCrNgQ0ABOR24LJWft-7ONkBAAEC";
-    $photo_id[] = "AgADAgADvK0xG3FNzRAdEnL5a7EyLQzSgQ0ABAp4Y7LaIrOcNd0BAAEC";
-    $photo_id[] = "AgADAgADva0xG3FNzRCCEWi8H4VnuLM1Sw0ABHcgYjrZnBYnoisBAAEC";
-    $photo_id[] = "AgADAgADvq0xG3FNzRC2pSgoMNL8tFndgQ0ABIwK-YAHNgVWzNoBAAEC";
-    $photo_id[] = "AgADAgADv60xG3FNzRAcze0O9jErGyzmgQ0ABIZea2OoFSW2p9sBAAEC";
-    $photo_id[] = "AgADAgADwK0xG3FNzRBH1cjgjb_Nva3igQ0ABCGoEbWpuHw7tt0BAAEC";
-    $photo_id[] = "AgADAgADwa0xG3FNzRC1nAHjiAJXVQ0OSw0ABM94apbxc0dInBkBAAEC";
-    $photo_id[] = "AgADAgADwq0xG3FNzRCT_JSA6J9tZy0VSw0ABL1oBK5TjosJ3xoBAAEC";
-    $photo_id[] = "AgADAgADw60xG3FNzRC4nnBQC28snDDUgQ0ABI9k5vZKPqEQydoBAAEC";
-    $photo_id[] = "AgADAgADxK0xG3FNzRCcv2_mrXBxqofPgQ0ABFoajv4M5D0b4doBAAEC";
-    $photo_id[] = "AgADAgADxa0xG3FNzRD6kDIvkVaTeqMKSw0ABChHs7A5nWUULhkBAAEC";
-    $photo_id[] = "AgADAgADxq0xG3FNzRD9FUK8uP-qDc_XgQ0ABLz7_dU-i9to39gBAAEC";
-    $photo_id[] = "AgADAgADx60xG3FNzRDc555ZOPu-atnpgQ0ABF1K5B6GcW78SNoBAAEC";
-    $photo_id[] = "AgADAgADyK0xG3FNzRBHyuh36avUPmIPSw0ABGNFkuKKM-zOXR4BAAEC";
-    $photo_id[] = "AgADAgADya0xG3FNzRCHqOH2dLGQZPLjgQ0ABIvWU4VhNK7kNtoBAAEC";
-    $photo_id[] = "AgADAgADyq0xG3FNzRDUxvpRagMyyC8SSw0ABIRp9mMPwK8XDRoBAAEC";
-    $photo_id[] = "AgADAgADy60xG3FNzRB5axS250zxvcjLgQ0ABK1dRqH7abcifd0BAAEC";
-    $photo_id[] = "AgADAgADzK0xG3FNzRDdamNZKmih3snUgQ0ABPoVS7i2KaPsINsBAAEC";
-    $photo_id[] = "AgADAgADza0xG3FNzRBQrHJ-It2veTHjgQ0ABA1xuSeNGpebrtoBAAEC";
-    $photo_id[] = "AgADAgADzq0xG3FNzRCVk3gOyAOFIgjdgQ0ABFQ7DfGFedIg7tsBAAEC";
-    $photo_id[] = "AgADAgADz60xG3FNzRA-cWIRiuyIUVzTgQ0ABFUftlMIWOmVm9gBAAEC";
-    $photo_id[] = "AgADAgADY6sxG3FNzRALBa0jfV8dwNLPgQ0ABMjbStO_QuL2gs8BAAEC";
-    $photo_id[] = "AgADAgADZKsxG3FNzRB9LHLyJD5hTTrNgQ0ABAx16QmFLJCMn8sBAAEC";
-    $photo_id[] = "AgADAgADZasxG3FNzRBXysGWmHY73q0NSw0ABHElJS92nBaoTg0BAAEC";
-    $photo_id[] = "AgADAgADZqsxG3FNzRDE6B0sxSByKO_ogQ0ABFcLuvufj4EPN8sBAAEC";
-    $photo_id[] = "AgADAgADZ6sxG3FNzRCM0KLzmyPv8bXfgQ0ABB7rpOVUhE_Skc4BAAEC";
-    $photo_id[] = "AgADAgADaKsxG3FNzRAXAieD5M6N3j3bgQ0ABP8zP8bkimoAAZDLAQABAg";
-    $photo_id[] = "AgADAgADaasxG3FNzRBpY5kpvUWWbyHfgQ0ABEhxRyPPECIZYdABAAEC";
-    $photo_id[] = "AgADAgADaqsxG3FNzRAy-WKka5hwilfbgQ0ABIpmgE1SDM93OckBAAEC";
-    $photo_id[] = "AgADAgADa6sxG3FNzRDMNx6WdGEAAYx1NksNAARnihN-VQ4HdKQeAQABAg";
-    $photo_id[] = "AgADAgADbKsxG3FNzRBC_S4JLY9W21zWgQ0ABM1SVcBfncilZs4BAAEC";
-    $photo_id[] = "AgADAgADbasxG3FNzRDo4cQsd2CuOIkPSw0ABOvEw3Tkq9eDwQwBAAEC";
-    $photo_id[] = "AgADAgADbqsxG3FNzRBC1wWx3gdZ7nfPgQ0ABM--Drxcer-V4swBAAEC";
-    $photo_id[] = "AgADAgADb6sxG3FNzRAocAAB-_vQsTSl3YENAARhllMsxPqErB7RAQABAg";
-    $photo_id[] = "AgADAgADcKsxG3FNzRCo8gSLXuD_ouQLSw0ABKLpOgNDQ8y8dgwBAAEC";
-    $photo_id[] = "AgADAgADcasxG3FNzRBdbkjvE4_f4McRSw0ABEDRvqOQVy01ZQ0BAAEC";
-    $photo_id[] = "AgADAgADcqsxG3FNzRDwS2MVcPX2QiMVSw0ABH7GUJmm4McdwREBAAEC";
-    $photo_id[] = "AgADAgADc6sxG3FNzRCWWdpOkmzCK6jWgQ0ABMm-irlLuchzAdMBAAEC";
-    $photo_id[] = "AgADAgADdKsxG3FNzRAB8-Wjw0ya4pY7Sw0ABPoDq_xvBuHlKx8BAAEC";
-    $photo_id[] = "AgADAgADdasxG3FNzRDvth3w9tWiukI9Sw0ABBQeLO9Tv3bprB0BAAEC";
-    $photo_id[] = "AgADAgADdqsxG3FNzRAWXmQ_18HqrAbYgQ0ABLIwApxKe0LEzcsBAAEC";
-    $photo_id[] = "AgADAgADd6sxG3FNzRD4Dkr2AeIaOmDogQ0ABC30ePbMPYeuuswBAAEC";
-    $photo_id[] = "AgADAgADeKsxG3FNzRCWVTHxQA6g8dATSw0ABEgOtXBKAwAB-awOAQABAg";
-    $photo_id[] = "AgADAgADeasxG3FNzRC7fXCs_rt9bwEySw0ABPsx0kBI6QMjhiIBAAEC";
-    $photo_id[] = "AgADAgADeqsxG3FNzRCOxsHEPtPyHjfNgQ0ABMDwARnhUkoHzM4BAAEC";
-    $photo_id[] = "AgADAgADe6sxG3FNzRCwun0upoRUOLQ0Sw0ABIySsC2Jp0sQ2CEBAAEC";
-    $photo_id[] = "AgADAgADracxG3FNzRCJtQY8PkPEA340Sw0ABP8XbF_t29o0KNwAAgI";
-    $photo_id[] = "AgADAgADrqcxG3FNzRAAAVzCtZ4UonczFEsNAASJf6cp_E40V6zKAAIC";
-    $photo_id[] = "AgADAgADr6cxG3FNzRAqBUfYIajNKAU8Sw0ABHX6dra3KjigAtoAAgI";
-    $photo_id[] = "AgADAgADsKcxG3FNzRCC-C7_TP6h4EjagQ0ABHu-E4-7v7QgH40BAAEC";
-    $photo_id[] = "AgADAgADsacxG3FNzRAdBecNcovUmALmgQ0ABCxPJSmJLDr0cIsBAAEC";
-    $photo_id[] = "AgADAgADsqcxG3FNzRCJncmcHIDyh8ARSw0ABEQSNaWToayWQMkAAgI";
-    $photo_id[] = "AgADAgADs6cxG3FNzRCFtQiXN7lh0lUXSw0ABOwS7_hfmkLe5ckAAgI";
-    $photo_id[] = "AgADAgADtKcxG3FNzRD49SFnmvGUMNYwSw0ABNlFTReXXXHM3twAAgI";
-    $photo_id[] = "AgADAgADtacxG3FNzRBoSQ6WH2DqWa_ngQ0ABMybXHnDbKilsowBAAEC";
-    $photo_id[] = "AgADAgADkKoxG3FNzRAJ0KMFeYF3m8c2Sw0ABLVun8rP8VxgLt8AAgI";
-    $photo_id[] = "AgADAgADj6oxG3FNzRCCCRkyavQmpoQySw0ABMdAI8QlTc0REt8AAgI";
-    $photo_id[] = "AgADAgADjqoxG3FNzRDYjcBJka3r9pvhgQ0ABMFUm2zQNwGqS4sBAAEC";
-    $photo_id[] = "AgADAgADjaoxG3FNzRCr_t_IM4fUzqfggQ0ABNxPxPKWvBs92o0BAAEC";
-    $photo_id[] = "AgADAgADjKoxG3FNzRBuwTO23YldL6LLgQ0ABPDvfAJ4txlYNo4BAAEC";
-    $photo_id[] = "AgADAgADi6oxG3FNzRBjbfVBYFJwMfjRgQ0ABA5igfrr9rI2R48BAAEC";
-    $photo_id[] = "AgADAgADiqoxG3FNzRAm4XYV7JH4fLoJSw0ABFFEjZoyW40rtcoAAgI";
-    $photo_id[] = "AgADAgADiaoxG3FNzRCmdZmH9yhfCwoNSw0ABI2YRtl6Q5s8F88AAgI";
-    $photo_id[] = "AgADAgADiKoxG3FNzRBhwByPWn5bdl7RgQ0ABDidwDvEHj5m0o0BAAEC";
-    $photo_id[] = "AgADAgADh6oxG3FNzRBJF3IpmgK78GThgQ0ABMVB33FNe3xqvokBAAEC";
-    $photo_id[] = "AgADAgADhqoxG3FNzRAgoAX62uWA_bblgQ0ABCVDj019ZBrbMI4BAAEC";
-    $photo_id[] = "AgADAgADhaoxG3FNzRBy9Eb4_FzO6CAJSw0ABHLjorOdbecphcwAAgI";
-    $photo_id[] = "AgADAgADhKoxG3FNzRBhJO7Iqubru4LUgQ0ABLv6TUG_MLPweY0BAAEC";
-    $photo_id[] = "AgADAgADg6oxG3FNzRAZa35OK5e9Ls3MgQ0ABLa1dPTVkNk-AY4BAAEC";
-    $photo_id[] = "AgADAgADgqoxG3FNzRCSj_dJgJIrmnPMgQ0ABE6CEmzzIr466IwBAAEC";
-    $photo_id[] = "AgADAgADgaoxG3FNzRCPidqDqOIZRvUHSw0ABB80iblDD7M2Nc0AAgI";
-    $photo_id[] = "AgADAgADgKoxG3FNzRAW80k4Ltl4yz4NSw0ABB2yRp5L1ZXsG80AAgI";
-    $photo_id[] = "AgADAgADf6oxG3FNzRDWnUuzdhh2ZpoQSw0ABFPc1sjYhVlUrcsAAgI";
-    $photo_id[] = "AgADAgADfqoxG3FNzRD_LQfnhxQNN8bMgQ0ABCzoNm7pVTyJio0BAAEC";
-    $photo_id[] = "AgADAgADfaoxG3FNzRA8vf33iuv9fvTigQ0ABHJfUEjj2rbDQ40BAAEC";
-    $photo_id[] = "AgADAgADfKoxG3FNzRA3bmNukRiDlEzmgQ0ABDbUWNwAAWzTjp-MAQABAg";
-    $photo_id[] = "AgADAgADe6oxG3FNzRAl-KhMSorwfCzdgQ0ABIVexW6LXpHF74wBAAEC";
-    $photo_id[] = "AgADAgADeqoxG3FNzRDHmQm9RXG21bTdgQ0ABBCQl-Uz4XGR0ooBAAEC";
-    $photo_id[] = "AgADAgADeaoxG3FNzRC5XTGvAAEXx0t1MksNAAQx9mO9tAQPtSjgAAIC";
-    $photo_id[] = "AgADAgADeKoxG3FNzRBUgjWTPeQ40jAUSw0ABH-f5yR0a4ntOckAAgI";
-    $photo_id[] = "AgADAgADRasxG3FNzRD6SZD390GuLjvNgQ0ABE5XZURVAY_VkKUBAAEC";
-    $photo_id[] = "AgADAgADRqsxG3FNzRA2_XzqgBcl6r8MSw0ABB90qdRPYinkVN0AAgI";
-    $photo_id[] = "AgADAgADR6sxG3FNzRCQQBXj09RT3GQQSw0ABIEFtMa_Ig4H4t0AAgI";
-    $photo_id[] = "AgADAgADSKsxG3FNzRA22N0i8KdMyZragQ0ABI4k5ZhZKZfQFJ8BAAEC";
-    $photo_id[] = "AgADAgADSasxG3FNzRAjpYkKrQ2dTbEQSw0ABMR4qseuCFO9xNwAAgI";
-    $photo_id[] = "AgADAgADSqsxG3FNzRAQkNOR-Cw7DCDYgQ0ABKbKPBhpqKKul58BAAEC";
-    $photo_id[] = "AgADAgADS6sxG3FNzRDSoNl6FU3Y_0vpgQ0ABLoSvjw-nhgGG5sBAAEC";
-    $photo_id[] = "AgADAgADTKsxG3FNzRA7VQNUt-bzQJXmgQ0ABAv7AAF2vF8nCwaiAQABAg";
-    $photo_id[] = "AgADAgADTasxG3FNzRDnaWhKbSpPX30USw0ABCPZc5GpKSOue-EAAgI";
-    $photo_id[] = "AgADAgADTqsxG3FNzRAEVHwOpc5tnN3RgQ0ABD7W43hCRJhJFZ8BAAEC";
-    $photo_id[] = "AgADAgADT6sxG3FNzRD3Yk0F2ufyRV3ZgQ0ABNn3SKT7aGxmSqABAAEC";
-    $photo_id[] = "AgADAgADUKsxG3FNzRDpmT8Mi2SBMmAQSw0ABJPrcMosFNdKM-EAAgI";
-    $photo_id[] = "AgADAgADUasxG3FNzRBypYX7g7aOuQkQSw0ABEjqo-QQdE6bht0AAgI";
-    $photo_id[] = "AgADAgADUqsxG3FNzRCFSwI0Oj7Fbe47Sw0ABH3MaXzAVBtnoPAAAgI";
-    $photo_id[] = "AgADAgADU6sxG3FNzRDqk2HH3pMze5M4Sw0ABH1j1-vBOhEYHfMAAgI";
-    $rand = array_rand($photo_id);
-    $count = count($photo_id);
+$photo_id = [
+    "AgADAgADpK0xG3FNzRDKAl9fkc4bRtPagQ0ABGOC3VmZQnEmu9UBAAEC",
+    "AgADAgADpa0xG3FNzRAP2eY3DX_s3AjVgQ0ABB-wZp_nwtgnk9cBAAEC",
+    "AgADAgADpq0xG3FNzRCgeuD89avNZUrcgQ0ABKYYXz2X6UTAwdsBAAEC",
+    "AgADAgADp60xG3FNzRDW0PaZDXTCmSjngQ0ABME3PXl6rGG-EtoBAAEC",
+    "AgADAgADqK0xG3FNzRDR04YlcSy5SuvcgQ0ABRz2dclnqEKF2AEAAQI",
+    "AgADAgADqa0xG3FNzRAVYJJZDXSJ89DVgQ0ABHGCcDKh-9ko_9YBAAEC",
+    "AgADAgADqq0xG3FNzRCiTFVmeLfyDOblgQ0ABHLNB7SsFOEN5t0BAAEC",
+    "AgADAgADq60xG3FNzRCN9rMGHZj5PnwTSw0ABJ7TXvPCOusR1BoBAAEC",
+    "AgADAgADrK0xG3FNzRCcq5UCizMh03fngQ0ABI1i5UJgJvOdndgBAAEC",
+    "AgADAgADra0xG3FNzRBq24mCHWFYCnbcgQ0ABEX2t3XpEMiPO9kBAAEC",
+    "AgADAgADrq0xG3FNzRDhhEwIJJQOmubbgQ0ABFT6FbMwKzGXq9YBAAEC",
+    "AgADAgADr60xG3FNzRCIlgABZmIaIMf20YENAAS5lZ6K0L5aR4vVAQABAg",
+    "AgADAgADsK0xG3FNzRA7cPxj4DSfBiXagQ0ABJO9qh9muNidcNkBAAEC",
+    "AgADAgADsa0xG3FNzRCBYOzlxi1_5WU0Sw0ABK8vqfCW1Yr93isBAAEC",
+    "AgADAgADsq0xG3FNzRBrHVGLGMogdYvqgQ0ABMOTTumzMFfPsNoBAAEC",
+    "AgADAgADs60xG3FNzRDWcnuP9a84VrXhgQ0ABEahF2HriEZTZNsBAAEC",
+    "AgADAgADtK0xG3FNzRAAAbKFSBMQEYKEOEsNAAQYEwdM3gd5tSorAQABAg",
+    "AgADAgADta0xG3FNzRDjW7_orVRtF-0HSw0ABCDplhMcC0khkRwBAAEC",
+    "AgADAgADtq0xG3FNzRA-nHusJ6epan_mgQ0ABFqFVpZy83XdTtkBAAEC",
+    "AgADAgADt60xG3FNzRBhnrt5NEk7hQPggQ0ABEWsBdXhd5STb9oBAAEC",
+    "AgADAgADuK0xG3FNzRD9c6aAdWhW-E46Sw0ABIPd8MsLhgzcIy0BAAEC",
+    "AgADAgADua0xG3FNzRBHmfhrl2uIsvsMSw0ABE5m4f9_5zxLOhoBAAEC",
+    "AgADAgADuq0xG3FNzRCPo_7AXxelCsw2Sw0ABC_wCwK_ApN_UykBAAEC",
+    "AgADAgADu60xG3FNzRAVpSwQjYDeLCrNgQ0ABOR24LJWft-7ONkBAAEC",
+    "AgADAgADvK0xG3FNzRAdEnL5a7EyLQzSgQ0ABAp4Y7LaIrOcNd0BAAEC",
+    "AgADAgADva0xG3FNzRCCEWi8H4VnuLM1Sw0ABHcgYjrZnBYnoisBAAEC",
+    "AgADAgADvq0xG3FNzRC2pSgoMNL8tFndgQ0ABIwK-YAHNgVWzNoBAAEC",
+    "AgADAgADv60xG3FNzRAcze0O9jErGyzmgQ0ABIZea2OoFSW2p9sBAAEC",
+    "AgADAgADwK0xG3FNzRBH1cjgjb_Nva3igQ0ABCGoEbWpuHw7tt0BAAEC",
+    "AgADAgADwa0xG3FNzRC1nAHjiAJXVQ0OSw0ABM94apbxc0dInBkBAAEC",
+    "AgADAgADwq0xG3FNzRCT_JSA6J9tZy0VSw0ABL1oBK5TjosJ3xoBAAEC",
+    "AgADAgADw60xG3FNzRC4nnBQC28snDDUgQ0ABI9k5vZKPqEQydoBAAEC",
+    "AgADAgADxK0xG3FNzRCcv2_mrXBxqofPgQ0ABFoajv4M5D0b4doBAAEC",
+    "AgADAgADxa0xG3FNzRD6kDIvkVaTeqMKSw0ABChHs7A5nWUULhkBAAEC",
+    "AgADAgADxq0xG3FNzRD9FUK8uP-qDc_XgQ0ABLz7_dU-i9to39gBAAEC",
+    "AgADAgADx60xG3FNzRDc555ZOPu-atnpgQ0ABF1K5B6GcW78SNoBAAEC",
+    "AgADAgADyK0xG3FNzRBHyuh36avUPmIPSw0ABGNFkuKKM-zOXR4BAAEC",
+    "AgADAgADya0xG3FNzRCHqOH2dLGQZPLjgQ0ABIvWU4VhNK7kNtoBAAEC",
+    "AgADAgADyq0xG3FNzRDUxvpRagMyyC8SSw0ABIRp9mMPwK8XDRoBAAEC",
+    "AgADAgADy60xG3FNzRB5axS250zxvcjLgQ0ABK1dRqH7abcifd0BAAEC",
+    "AgADAgADzK0xG3FNzRDdamNZKmih3snUgQ0ABPoVS7i2KaPsINsBAAEC",
+    "AgADAgADza0xG3FNzRBQrHJ-It2veTHjgQ0ABA1xuSeNGpebrtoBAAEC",
+    "AgADAgADzq0xG3FNzRCVk3gOyAOFIgjdgQ0ABFQ7DfGFedIg7tsBAAEC",
+    "AgADAgADz60xG3FNzRA-cWIRiuyIUVzTgQ0ABFUftlMIWOmVm9gBAAEC",
+    "AgADAgADY6sxG3FNzRALBa0jfV8dwNLPgQ0ABMjbStO_QuL2gs8BAAEC",
+    "AgADAgADZKsxG3FNzRB9LHLyJD5hTTrNgQ0ABAx16QmFLJCMn8sBAAEC",
+    "AgADAgADZasxG3FNzRBXysGWmHY73q0NSw0ABHElJS92nBaoTg0BAAEC",
+    "AgADAgADZqsxG3FNzRDE6B0sxSByKO_ogQ0ABFcLuvufj4EPN8sBAAEC",
+    "AgADAgADZ6sxG3FNzRCM0KLzmyPv8bXfgQ0ABB7rpOVUhE_Skc4BAAEC",
+    "AgADAgADaKsxG3FNzRAXAieD5M6N3j3bgQ0ABP8zP8bkimoAAZDLAQABAg",
+    "AgADAgADaasxG3FNzRBpY5kpvUWWbyHfgQ0ABEhxRyPPECIZYdABAAEC",
+    "AgADAgADaqsxG3FNzRAy-WKka5hwilfbgQ0ABIpmgE1SDM93OckBAAEC",
+    "AgADAgADa6sxG3FNzRDMNx6WdGEAAYx1NksNAARnihN-VQ4HdKQeAQABAg",
+    "AgADAgADbKsxG3FNzRBC_S4JLY9W21zWgQ0ABM1SVcBfncilZs4BAAEC",
+    "AgADAgADbasxG3FNzRDo4cQsd2CuOIkPSw0ABOvEw3Tkq9eDwQwBAAEC",
+    "AgADAgADbqsxG3FNzRBC1wWx3gdZ7nfPgQ0ABM--Drxcer-V4swBAAEC",
+    "AgADAgADb6sxG3FNzRAocAAB-_vQsTSl3YENAARhllMsxPqErB7RAQABAg",
+    "AgADAgADcKsxG3FNzRCo8gSLXuD_ouQLSw0ABKLpOgNDQ8y8dgwBAAEC",
+    "AgADAgADcasxG3FNzRBdbkjvE4_f4McRSw0ABEDRvqOQVy01ZQ0BAAEC",
+    "AgADAgADcqsxG3FNzRDwS2MVcPX2QiMVSw0ABH7GUJmm4McdwREBAAEC",
+    "AgADAgADc6sxG3FNzRCWWdpOkmzCK6jWgQ0ABMm-irlLuchzAdMBAAEC",
+    "AgADAgADdKsxG3FNzRAB8-Wjw0ya4pY7Sw0ABPoDq_xvBuHlKx8BAAEC",
+    "AgADAgADdasxG3FNzRDvth3w9tWiukI9Sw0ABBQeLO9Tv3bprB0BAAEC",
+    "AgADAgADdqsxG3FNzRAWXmQ_18HqrAbYgQ0ABLIwApxKe0LEzcsBAAEC",
+    "AgADAgADd6sxG3FNzRD4Dkr2AeIaOmDogQ0ABC30ePbMPYeuuswBAAEC",
+    "AgADAgADeKsxG3FNzRCWVTHxQA6g8dATSw0ABEgOtXBKAwAB-awOAQABAg",
+    "AgADAgADeasxG3FNzRC7fXCs_rt9bwEySw0ABPsx0kBI6QMjhiIBAAEC",
+    "AgADAgADeqsxG3FNzRCOxsHEPtPyHjfNgQ0ABMDwARnhUkoHzM4BAAEC",
+    "AgADAgADe6sxG3FNzRCwun0upoRUOLQ0Sw0ABIySsC2Jp0sQ2CEBAAEC",
+    "AgADAgADracxG3FNzRCJtQY8PkPEA340Sw0ABP8XbF_t29o0KNwAAgI",
+    "AgADAgADrqcxG3FNzRAAAVzCtZ4UonczFEsNAASJf6cp_E40V6zKAAIC",
+    "AgADAgADr6cxG3FNzRAqBUfYIajNKAU8Sw0ABHX6dra3KjigAtoAAgI",
+    "AgADAgADsKcxG3FNzRCC-C7_TP6h4EjagQ0ABHu-E4-7v7QgH40BAAEC",
+    "AgADAgADsacxG3FNzRAdBecNcovUmALmgQ0ABCxPJSmJLDr0cIsBAAEC",
+    "AgADAgADsqcxG3FNzRCJncmcHIDyh8ARSw0ABEQSNaWToayWQMkAAgI",
+    "AgADAgADs6cxG3FNzRCFtQiXN7lh0lUXSw0ABOwS7_hfmkLe5ckAAgI",
+    "AgADAgADtKcxG3FNzRD49SFnmvGUMNYwSw0ABNlFTReXXXHM3twAAgI",
+    "AgADAgADtacxG3FNzRBoSQ6WH2DqWa_ngQ0ABMybXHnDbKilsowBAAEC",
+    "AgADAgADkKoxG3FNzRAJ0KMFeYF3m8c2Sw0ABLVun8rP8VxgLt8AAgI",
+    "AgADAgADj6oxG3FNzRCCCRkyavQmpoQySw0ABMdAI8QlTc0REt8AAgI",
+    "AgADAgADjqoxG3FNzRDYjcBJka3r9pvhgQ0ABMFUm2zQNwGqS4sBAAEC",
+    "AgADAgADjaoxG3FNzRCr_t_IM4fUzqfggQ0ABNxPxPKWvBs92o0BAAEC",
+    "AgADAgADjKoxG3FNzRBuwTO23YldL6LLgQ0ABPDvfAJ4txlYNo4BAAEC",
+    "AgADAgADi6oxG3FNzRBjbfVBYFJwMfjRgQ0ABA5igfrr9rI2R48BAAEC",
+    "AgADAgADiqoxG3FNzRAm4XYV7JH4fLoJSw0ABFFEjZoyW40rtcoAAgI",
+    "AgADAgADiaoxG3FNzRCmdZmH9yhfCwoNSw0ABI2YRtl6Q5s8F88AAgI",
+    "AgADAgADiKoxG3FNzRBhwByPWn5bdl7RgQ0ABDidwDvEHj5m0o0BAAEC",
+    "AgADAgADh6oxG3FNzRBJF3IpmgK78GThgQ0ABMVB33FNe3xqvokBAAEC",
+    "AgADAgADhqoxG3FNzRAgoAX62uWA_bblgQ0ABCVDj019ZBrbMI4BAAEC",
+    "AgADAgADhaoxG3FNzRBy9Eb4_FzO6CAJSw0ABHLjorOdbecphcwAAgI",
+    "AgADAgADhKoxG3FNzRBhJO7Iqubru4LUgQ0ABLv6TUG_MLPweY0BAAEC",
+    "AgADAgADg6oxG3FNzRAZa35OK5e9Ls3MgQ0ABLa1dPTVkNk-AY4BAAEC",
+    "AgADAgADgqoxG3FNzRCSj_dJgJIrmnPMgQ0ABE6CEmzzIr466IwBAAEC",
+    "AgADAgADgaoxG3FNzRCPidqDqOIZRvUHSw0ABB80iblDD7M2Nc0AAgI",
+    "AgADAgADgKoxG3FNzRAW80k4Ltl4yz4NSw0ABB2yRp5L1ZXsG80AAgI",
+    "AgADAgADf6oxG3FNzRDWnUuzdhh2ZpoQSw0ABFPc1sjYhVlUrcsAAgI",
+    "AgADAgADfqoxG3FNzRD_LQfnhxQNN8bMgQ0ABCzoNm7pVTyJio0BAAEC",
+    "AgADAgADfaoxG3FNzRA8vf33iuv9fvTigQ0ABHJfUEjj2rbDQ40BAAEC",
+    "AgADAgADfKoxG3FNzRA3bmNukRiDlEzmgQ0ABDbUWNwAAWzTjp-MAQABAg",
+    "AgADAgADe6oxG3FNzRAl-KhMSorwfCzdgQ0ABIVexW6LXpHF74wBAAEC",
+    "AgADAgADeqoxG3FNzRDHmQm9RXG21bTdgQ0ABBCQl-Uz4XGR0ooBAAEC",
+    "AgADAgADeaoxG3FNzRC5XTGvAAEXx0t1MksNAAQx9mO9tAQPtSjgAAIC",
+    "AgADAgADeKoxG3FNzRBUgjWTPeQ40jAUSw0ABH-f5yR0a4ntOckAAgI",
+    "AgADAgADRasxG3FNzRD6SZD390GuLjvNgQ0ABE5XZURVAY_VkKUBAAEC",
+    "AgADAgADRqsxG3FNzRA2_XzqgBcl6r8MSw0ABB90qdRPYinkVN0AAgI",
+    "AgADAgADR6sxG3FNzRCQQBXj09RT3GQQSw0ABIEFtMa_Ig4H4t0AAgI",
+    "AgADAgADSKsxG3FNzRA22N0i8KdMyZragQ0ABI4k5ZhZKZfQFJ8BAAEC",
+    "AgADAgADSasxG3FNzRAjpYkKrQ2dTbEQSw0ABMR4qseuCFO9xNwAAgI",
+    "AgADAgADSqsxG3FNzRAQkNOR-Cw7DCDYgQ0ABKbKPBhpqKKul58BAAEC",
+    "AgADAgADS6sxG3FNzRDSoNl6FU3Y_0vpgQ0ABLoSvjw-nhgGG5sBAAEC",
+    "AgADAgADTKsxG3FNzRA7VQNUt-bzQJXmgQ0ABAv7AAF2vF8nCwaiAQABAg",
+    "AgADAgADTasxG3FNzRDnaWhKbSpPX30USw0ABCPZc5GpKSOue-EAAgI",
+    "AgADAgADTqsxG3FNzRAEVHwOpc5tnN3RgQ0ABD7W43hCRJhJFZ8BAAEC",
+    "AgADAgADT6sxG3FNzRD3Yk0F2ufyRV3ZgQ0ABNn3SKT7aGxmSqABAAEC",
+    "AgADAgADUKsxG3FNzRDpmT8Mi2SBMmAQSw0ABJPrcMosFNdKM-EAAgI",
+    "AgADAgADUasxG3FNzRBypYX7g7aOuQkQSw0ABEjqo-QQdE6bht0AAgI",
+    "AgADAgADUqsxG3FNzRCFSwI0Oj7Fbe47Sw0ABH3MaXzAVBtnoPAAAgI",
+    "AgADAgADU6sxG3FNzRDqk2HH3pMze5M4Sw0ABH1j1-vBOhEYHfMAAgI",
+];
 
-    $answer = array();
+$rand  = array_rand( $photo_id );
+$count = count( $photo_id );
+
+//$answer = [];
 //     $answer[] = "Есть у меня кое-что для тебя.. ^^,";
 //     $answer[] = "Это я умею, смотри сам";
 //     $answer[] = "Да пожалуйста..";
 //     $answer[] = "Руку не сотри";
 //     $answer[] = "фап тайм?";
-    
-    $random = array_rand($answer);
+
+  //  $random = array_rand( $answer );
 
 //     sendMessage($chat_id,$answer[$random]."\nКол-во сисек в базе: <b>".$count."</b>");
-    sendPhoto($chat_id,$photo_id[$rand],$msgid,"Тебе достался вариант №: ".$rand." из .".$count);
+    sendPhoto( $chat_id, $photo_id[ $rand ], $msgid, "Тебе достался вариант №: " . $rand . " из ." . $count );
 
 ?>
