@@ -3,7 +3,7 @@ echo "Settings loadedd  <br>";
 // include 'Botan.php'; //disabled
 error_reporting(E_ALL);
 date_default_timezone_set('Europe/Moscow');
-$access_token = '281890161:AAEmjZSV_5_-P9qwwfJCEMcjX66qPdTt6NM';
+$access_token = $_ENV('TELEGRAM_TOKEN');
 $api = 'https://api.telegram.org/bot' . $access_token;
 $output = json_decode(file_get_contents('php://input'), TRUE);
 $chat_id = $output['message']['chat']['id'];
