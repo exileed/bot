@@ -15,7 +15,7 @@ echo "Получить file_id c фотографий в папке /web/images/
 // echo __DIR__.'<br>';
 // echo __FILE__.'<br>';
 // echp "<hr>";
-echo "В папке web/images :<b>".count(scandir('/web/images/'))."</b> файлов";
+echo "В папке web/images :<b>".count(scandir('/app/web/images/'))."</b> файлов";
 $dir = "images/";
 $exclude = array( ".","..","error_log","_notes" );
 if (is_dir($dir)) {

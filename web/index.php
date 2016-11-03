@@ -10,7 +10,7 @@
 <?php
 echo $_POST['login'];
 echo $_POST['password'];
-require 'lib/db.php';
+require 'db.php';
 if (isset($_POST['submit'])) {
 	if (R::count('users',"WHERE login = ?",array($_POST['login']))) {
 		die("Пользоватесь с таким логином уже зарегистрирован");
