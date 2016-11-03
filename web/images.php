@@ -55,11 +55,6 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $post_fields);
  $output = json_decode($output, true);
 foreach ($output['result'] as $key => $value) {
 	echo $value[0]['file_id'].'<br>';
-	print_r($images);
-	$image = R::dispense('image');
-	$image->file_id = "test";
-	$image->date_add = date('H:i:s');
-	R::store($image);
 }
 }
 }
